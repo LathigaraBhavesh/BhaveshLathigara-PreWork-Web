@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  Bhavesh Lathigara -PreWork –Web
+//
+//  Created by Bhavesh Lathigara on 13/04/19.
+//  Copyright © 2019 Bhavesh Lathigara. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AppDelegate.h"
+#import "Util.h"
+#import "MBProgressHUD.h"
+#import "AFHTTPRequestOperationManager.h"
+#import "BLWebServiceWrappper.h"
+#import "UIImageView+WebCache.h"
+#import "NSObject+KJSerializer.h"
+
+#define APPDELEGATE (AppDelegate *)[[UIApplication sharedApplication] delegate]
+#define NoInternet @"Something wrong with internet connection please check and try again"
+#define BASEURL @"https://api.imgur.com/3/"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
